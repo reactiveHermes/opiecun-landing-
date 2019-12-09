@@ -1,0 +1,563 @@
+/*
+* Custom
+*/
+@import "partials/app";
+@import "partials/footer";
+section{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.section_link{
+    background-color: #eff7f7;
+}
+
+.block__link{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    a{
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: #8ae2e2;
+        margin-left: 5px;
+    }
+}
+
+.specialists{
+    margin-bottom: 140px;
+}
+
+.categories{
+    h2{
+        text-align: center;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: #0b2a37;
+        margin-top: 100px;
+    } 
+}
+
+.categories__inner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 65px;
+    text-align: center;
+    margin-bottom: 140px;
+    h6{
+        display: block;
+        height: 65px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        color: #0b2a37;
+    }
+    p{
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #0b2a37;
+    }
+}
+
+.block_img{
+    margin-top: 80px;
+    height: 165px;
+}
+
+.section_4{
+    width: 100%;
+    height: 545px;
+    background: url(../img/main_3.png) no-repeat top center;
+    -webkit-background-size: cover;
+    -moz-background-size:  cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.section_5{
+    background-color: #66cfcf;
+}
+
+.block_inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.block_src{
+    width: 45%;
+    height: 870px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+    color: #eff7f7;
+    p{
+        margin-bottom: 65px;
+    }
+    a{
+        padding: 21px 45px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        border: 2px solid #eff7f7;
+        border-radius: 5px;
+        color: #eff7f7;
+    }
+}
+
+.block_list{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    position: relative;
+    h6{
+        display: block;
+        padding: 12px 0;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 700;
+        font-size: 22px;
+        color: #eff7f7;
+    }
+    p{
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #eff7f7;
+        }
+}
+
+.method_src{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 870px;
+    .text_inner{
+        margin: 0 20px;
+    }
+    .headline{
+        line-height: 26px;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        color: #ffffff;
+        margin-bottom: 12px;
+    }
+    p{
+        line-height: 22px;
+        font-family: 'Maven Pro', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}
+
+.search_method{
+    height: 100%;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.src_caregiver{
+    display: flex;
+    position: relative;
+}
+
+.circle_src{
+    margin-top: -17px;
+    height: 60px;
+    width: 60px;
+    border: 2px dotted white;
+    border-radius: 100%;
+    text-align: center;
+    img{
+        margin: 25% 0;
+    }
+}
+
+.arrow_src{
+    position: absolute;
+    margin-top: 10px;
+    left: 230px;
+    width: 345px;
+    height: 180px;
+    border: 2px solid white;
+    border-radius: 90px;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 140%, 80% 100%);
+}
+.arrow_src::after{
+    content: '';
+    position: absolute;
+    border: 10px solid transparent;
+    border-right: 10px solid white;
+    right: 18%;
+    bottom: -5%;
+}
+
+.select_caregiver{
+    display: flex;
+    position: relative;
+    align-self: flex-end;
+    margin-top: -25px;
+    .text_inner{
+        text-align: right;
+    }
+}
+
+.arrow_reverse{
+    position: absolute;
+    margin-top: 18px;
+    right: 230px;
+    width: 345px;
+    height: 180px;
+    border: 2px solid white;
+    border-radius: 90px;
+    clip-path: polygon(75% 0%, 0% 0%, 0% 140%, 20% 100%);
+}
+
+.arrow_reverse::after{
+    content: '';
+    position: absolute;
+    border: 10px solid transparent;
+    border-left: 10px solid white;
+    left: 18%;
+    bottom: -5%;
+}
+
+.test_period{
+    display: flex;
+    position: relative;
+    margin-top: -60px;
+}
+
+.pay_after_start{
+    display: flex;
+    align-self: flex-end;
+    margin-top: -25px;
+    .text_inner{
+        text-align: right;
+    }
+}
+
+.section_6{
+    width: 100%;
+    height: 542px;
+    background: url(../img/main_5.png) no-repeat 55% 0%;
+}
+
+.section_7{
+    height: 100%;
+    background-color: white;
+}
+
+.inner_client_block{
+    h2{
+        text-align: center;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: #0b2a37;
+        margin-top: 100px;
+        margin-bottom: 80px;
+    } 
+}
+.clients_say{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    .box_comment{
+    position: relative;
+    width: 410px;
+    height: 200px;
+    margin: 23px;
+    }
+}
+
+.comment{
+    position: relative;
+    height: 130px;
+    padding: 10% 5%;
+    background-color: #eff7f7; 
+    text-align: left;
+    p{
+        font-size: 16px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 400;
+        color: #0b2a37;
+    }
+}
+
+.comment::before{
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 10px 15px;
+    border-color: #eff7f7 #eff7f7 transparent transparent;
+    right: 0px;
+    top: 99%;
+}
+
+.client_icon{
+    position: absolute;
+    top: 153px;
+    right: 0px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.user_info{
+    position: absolute;
+    bottom: 5px;
+    right: 60px;
+    text-align: right;
+    .user_name{
+        font-size: 16px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 700;
+        color: #0b2a37;
+    }
+    p{
+        font-size: 16px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 400;
+        color: #0b2a37;
+    }
+}
+.section_8{
+    height: 542px;
+    width: 100%;
+    background: url(../img/main_7.png) no-repeat;
+    background-position: 79% 0%
+}
+
+.section_9{
+    height: 870px;
+    width: 100%;
+    background: url(../img/main_8.png) no-repeat 99% ;
+}
+
+.inner_advantages_strenghts{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.advantages_list{
+    li{
+        list-style-type: none;
+        margin-bottom: 46px;
+        padding-top: 5px;
+        font-size: 16px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+    }
+}
+
+.advantages_list li::before{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 50px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+}
+
+.strenghts{
+    
+    p{
+        margin-bottom: 65px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 900;
+        font-size: 80px;
+        color: #eff7f7;
+    }
+    a{
+        padding: 21px 45px;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        border: 2px solid #eff7f7;
+        border-radius: 5px;
+        color: #eff7f7;
+    }
+}
+
+.section_10{
+    height: 220px;
+}
+
+.inner_help_center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+    h2{
+        text-align: center;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        color: #0b2a37;
+    }
+    p{
+        text-align: center;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+        color: #0b2a37;
+    } 
+
+    a{
+        margin-top: 36px;
+        padding: 15px 18px;
+        border-radius: 5px;
+        background-color: #ff6262;
+        text-align: center;
+        font-family: 'Maven Pro', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 1350px) {
+    .block_inner{
+        flex-flow: column;
+    }
+    .block_src{
+        height: 600px;
+        text-align: center;
+        align-items: center;
+    }
+    .method_src{
+        height: 100%;
+        width: 90%;
+        .text_inner {
+            margin: 0px 20px 95px;
+        }
+    }
+}
+
+@media (max-width: 1150px) {
+    .specialists{
+        margin-bottom: 100px;
+    }
+    .categories{
+        h2{
+            font-size: 34px;
+        }
+    }
+    .categories__inner{
+        flex-wrap: wrap;
+    }
+    .categories__inner__block{
+        width: 48%;
+    }
+    .inner_advantages_strenghts{
+        flex-direction: column-reverse;
+        text-align: center;
+        .advantages_list{
+            li{
+                margin-bottom: 15px;
+            }
+        }
+        .advantages_list li::before{
+            content: '';
+            margin: 8px auto;
+            height: 2px;
+            width: 100px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .block_src{
+        height: 450px;
+        p{
+            font-size: 46px;
+        }
+        a{
+            padding: 15px 20px;
+            font-size: 16px;
+        }
+    }
+    .arrow_src{
+        display: none;
+    }
+    .arrow_reverse{
+        display: none;
+    }
+}
+
+@media (max-width: 610px) {
+    .block__link{
+        flex-wrap: wrap;
+        align-content: center;
+    }
+    .specialists{
+        margin-bottom: 70px;
+    }
+    .categories{
+        h2{
+            margin-top: 50px;
+            font-size: 30px;
+        }
+    }
+    .categories__inner{
+        margin-top: 50px;
+        .categories__inner__block{
+        width: 100%;
+        }
+    }
+    .block_img{
+        margin-top: 50px;
+    }
+    .block_src{
+        p{
+            font-size: 40px;
+        }
+        a{
+            padding: 10px 15px;
+        }
+    }
+    .method_src{
+        width: 100%;
+    }
+    .circle_src{
+        height: 55px;
+    }
+    .section_8{
+        background-position: 48% 0%;
+    }
+    .strenghts{
+    
+        p{
+            margin-bottom: 45px;
+            font-size: 40px;
+        }
+        a{
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+    }
+    .inner_help_center{
+        h2{
+            font-size: 30px;
+        }
+    }
+}
